@@ -120,6 +120,7 @@ body {
     font-size: 38px;
     margin-top: 40px;
     color: #140A32;
+
 }
 
 .line2 {
@@ -128,6 +129,11 @@ body {
     font-size: 16px;
     /* line-height: 160%; */
     color: #140A32;
+    margin-top: 20px;
+}
+
+.line2 p {
+    margin-top: 30px;
 }
 
 h3 {
@@ -138,7 +144,14 @@ h3 {
 h2 {
     color: #33836e;
     margin: 0;
+
 }
+
+h5 {
+    margin: 0;
+}
+
+p {}
 
 .headgla2 a {
     text-decoration: none;
@@ -148,6 +161,7 @@ h2 {
 .yourist {
     display: flex;
     gap: 30px;
+    margin-top: 40px;
 }
 
 .phone {
@@ -167,4 +181,111 @@ h2 {
 .menu2 a {
     text-decoration: none;
     color: black;
+}
+
+.instruct-border {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 20px;
+    gap: 15px;
+
+    width: 270px;
+    height: 180px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu h2 {
+    font-size: 16px;
+}
+
+.devushka {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.instruct2-border {
+    display: flex;
+
+    align-items: center;
+    padding: 10px 20px;
+    gap: 15px;
+
+    width: 560px;
+    height: 180px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 10px;
+
+
+}
+
+.menu228 h2 {
+    font-size: 16px;
+}
+
+.menu228 a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu228 {
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.yourist2 {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.klass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu2288 h2 {
+    font-size: 16px;
+}
+
+.menu2288 a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu2288 {
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.instruct22-border {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 20px;
+    gap: 15px;
+
+    width: 560px;
+    height: 287px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 10px;
+}
+
+.instruct22-border a {
+    text-decoration: none;
+    color: grey;
 }
